@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <bean id="userService" class="com.imooc.ioc.demo1.UserServiceImpl">
+        <property name="name" value="Spring from Context"></property>
+    </bean>
+
+    <bean id="food" class="com.imooc.ioc.demo1.Food">
+        <property name="name" value="Banana"></property>
+        <property name="taste" value="sweet"></property>
+        <property name="kind" value="fruit"></property>
+    </bean>
+
+<!--    Three ways to instantiate beans-->
+<!--    By direct way-->
+
+
+<!--    By static factory-->
+
+<!--    By instantiated factory-->
+
+</beans>
